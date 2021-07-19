@@ -1,0 +1,83 @@
+양식태그
+<form>
+	데이터 입력
+	<input type=''>
+</form>
+
+
+form 
+	method - 양식의 데이터를 전송하는 방식 
+			- GET
+				  - URL 형태로 전송이 되는 데이터(브라우저 주소창에 노출)
+				  - 브라우저 주소창에 입력하는 문자 갯수의 제한
+                     (전송할 데이터의 용량이 제한이 있다)
+					 
+			- POST 
+				  - 브라우저 주소창에 노출이 되지 않는 데이터
+				  - 내부적으로 처리 (용량의 제한이 비교적 덜 하다)
+				  - 많은 데이터 전송시 사용 
+				  - 예) 파일을 전송 시 - enctype="multipart/form-data"
+  				
+	action - 양식 데이터를 전송할 URL
+	
+	target - 전송할 창
+	
+	enctype
+	
+	
+input, select, textarea 
+데이터를 찾을 수 있는 속성 - name
+기본값을 지정하는 속성 - value
+
+radio, checked -> 값을 선택하는 속성 checked
+
+select에서 값을 선택하는 속성 -> selected (option 태그에 정의)
+
+
+textarea 
+		- rows  - 영역을 몇줄 만큼 늘릴 것인지 
+		- cols  - 영역을 몇칸 만큼 늘릴 것인지
+
+input
+	type - 버튼관련 타입
+	submit(양식제출)|button(일반버튼)|reset(양식 취소)
+
+placeholder - 안내문구
+
+깃 허브 
+https://github.com/yonggyo1981
+
+html2
+
+회원가입 양식
+
+
+align - 가로 정렬(왼쪽 - left, 가운데 - center, 오른쪽 - right)
+valign - 수직 정렬(위 - top, 가운데 - middle, 아래 - bottom)
+
+
+&nbsp; -> 공백 1개 
+&amp;   -> &
+&lt;  --> <
+&gt; --> >
+
+ul - unordered list -> 순서가 없는 목록 
+ol - ordered list -> 순서가 있는 목록
+dl - dt, dd 
+
+
+a 
+	- href - 링크 이동 
+	- target - 이동할 창
+					_self - 현재 창(기본값)
+					_blank - 새 창
+					
+					내부 창의 name 값
+					
+내부 창은 같은 페이지 하부의 iframe 
+
+padding - 내부여백
+margin - 외부여백 
+
+align - 가로정렬 - left, right, center
+valign - 수직정렬- top, middle, bottom

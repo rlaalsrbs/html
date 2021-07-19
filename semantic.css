@@ -1,26 +1,26 @@
-header{
+header { 
 	border: 1px solid blue;
-	width: 100%;
-	height: 300px;
-	margin-bottom: 10px;
+	width: 100%; 
+	height: 100px; 
+	margin-bottom: 10px; 
 }
 
-nav{
+nav { 
 	border: 1px solid orange;
 	width: 100%;
-	height: 50%;
-	margin-bottom: 10px;
+	height: 50px;
+	margin-bottom: 10px; 
 }
 
 footer {
 	border: 1px solid black;
-	width: 100%;
+	width: 100%; 
 	height: 150px;
 }
 
 section {
 	border: 1px solid blue;
-	height: 300px;
+	height: 300px; 
 	width: calc(100% - 214px);
 	float: left;
 }
@@ -34,6 +34,6 @@ aside {
 }
 main:after {
 	clear: both;
-	content: ";
-	display : block;
+	content: '';
+	display: block;
 }

@@ -1,0 +1,111 @@
+브라우저 - 자바스트립트 해석기
+(자바스크립트 런타임)
+
+자바스크립트 
+- 사용자와 상호작용
+
+자바스크립트 코어 소스 (ECMAScript)
+브라우저 관련 소스 (브라우저에만 있는 소스)
+
+
+<DIV></DIV>
+<div></div>
+
+색상
+
+경계선
+글꼴 색상
+배경색 
+
+1. 색상명
+red, blue, green, yellow
+
+2. RGB
+   RED      GREEN    BLUE 
+   (0~255)  (0~255)  (0~255)
+   255 * 255 * 255
+ 
+3. HEX 코드(16진수 코드)
+    RED 
+	RGB    255, 0, 0 
+   16진수  ff 00 00
+   #ff0000
+
+4. RGBA
+		A - 알파채널 (투명도) 0 ~ 1 
+		0에 가까울 수록 투명, 1에 가까울수록 불투명
+		
+table
+	th, td 
+		rowspan - 행 병합
+		colspan - 열 병합
+
+		align - 가로정렬(left, right, center)
+		valign - 수직정렬(top, middle, bottom)
+		
+img
+	src - 이미지 경로 
+	width
+	height
+	alt - alternative text(대체문구)
+	
+body
+	bgcolor 전체 배경색
+	text - 글꼴 색 
+	link - a 태그 링크 기본 색상 
+	vlink - a 태그 링크 이동 후 색상
+	alink - a 태그를 클릭할때 색상
+	
+../ -> 상위 폴더로 이동
+
+form - 양식, 신청서
+
+<form method='' action=''>
+
+</form>
+
+- method - 전송 방식(GET, POST)
+	<a href='/goods_list?cateCd=032&brandCd=001'></a>
+	쿼리스트링
+
+- action - 양식 데이터를 처리할 URL 
+- enctype -> 파일을 업로드 할때 
+	(enctype='multipart/form-data')
+	
+- target
+		- _self  (현재 창)
+		_ _blank (새창)
+		_ 내부 창의 name 속성 값
+
+
+그룹화 태그
+<fieldset>
+	<legend>그룹 제목</legend>
+</fieldset>
+
+<label></label>
+
+id - checkbox, radio
+for - label
+
+select 
+multiple - 여러개 선택 가능
+size - 한번에 노출할 갯수
+
+특정 option을 선택 할때 - selected
+
+type
+	- submit - 양식 제출 버튼
+	- button - 일반적인 버튼
+	- reset - 양식 취소 버튼
+	
+<input type='submit|button|reset' value='버튼명'>
+
+<button type='submit|button|reset'>버튼명</button>
+
+
+type
+	- image  - 제출 버튼(이미지 제출버튼 - submit와 동일한 기능)
+	     + src 속성 -> 이미지 경로
+		 
+<input type="image" src="이미지 경로">
